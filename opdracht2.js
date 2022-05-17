@@ -133,3 +133,4 @@ const totalToBeSoldElement = document.createElement('h2');
 totalToBeSoldElement.textContent = totalToBeSold;
 totalToBeSoldElement.setAttribute('class', 'red-text');
 document.body.appendChild(totalToBeSoldElement);
+

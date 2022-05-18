@@ -63,3 +63,19 @@ export const tvBrandsFun = (inventoryarray) => {
         tvBrandElement.appendChild(tvBrandList);
     }
 }
+
+/*
+Opdracht 4c: Maak een herbruikbare functie die een string genereert voor alle beschikbare schermgroottes van één tv. De functie geeft dit terug in het format [schermgrootte] inches ([schermgrootte omgerekend]cm) | [schermgrootte] inches ([schermgrootte omgerekend]cm) etc. Als een tv maar één schermgrootte heeft ([32]) wordt de output 32 inch (81 cm). Wanneer een tv vier schermgroottes heeft ([43, 50, 55, 58]) wordt de output 43 inch (109 cm) | 50 inch (127 cm) | 58 inch (147 cm). Let op: om één string te genereren uit een array van schermgroottes zul je een for-loop voor moeten gebruiken.
+ x2.54
+
+ Input:
+ -array
+ Output:
+ -string
+ Stappen:
+ -Loop door de array
+ -Sla iedere grootte op met inch en cm text erachter
+ -Voeg een '|' toe bij meer dan 1 schermen
+
+
+*/
